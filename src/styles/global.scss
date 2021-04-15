@@ -1,0 +1,13 @@
+@import './_mixins.scss';
+@import './_animations.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,400&display=swap');
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  font-style: italic;
+  @include grid-center;
+  // background-color: grey;
+  height: 2rem;
+  width: 80vh;
+}
